@@ -1,7 +1,1041 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Dewan Ziaul Karim</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+	
+	<!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	<!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="img/dzk.png" rel="shortcut icon" type="image/png" /> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+	
+	
+	<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+	
+	
+	<style type="text/css">
+
+#feynman:hover + #feynman_text{
+  opacity:1;
+}
+#feynman_text:hover{
+  opacity:1;
+}
+
+#feynman_text{
+  position:absolute;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:18px;
+  top:18%;
+  
+  margin-left:348px;
+  
+  width:100%;
+  text-align:left;
+  opacity:0;
+  transition: 0.5s;
+}
+
+
+
+
+.imageaust {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.austoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.about-image_aust:hover .austoverlay{
+  width: 100%;
+  opacity:.9;
+   
+}
+
+.textaust {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+ 
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+
+.imagedrmc {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.drmcoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.about-image_drmc:hover .drmcoverlay{
+  width: 100%;
+  opacity:.7;
+   
+}
+
+.textdrmc {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+
+#slideshow {
+  
+  overflow: hidden;
+  height: 400px;
+  width: 690px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2922px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 400px;
+  width: 700px;
+}
+
+.slide:nth-child(1) {
+  background: auto;
+  margin-left:-10px;
+}
+
+.slide:nth-child(2) {
+  background: auto;
+  margin-left:20px;
+}
+
+.slide:nth-child(3) {
+  background: white;
+  margin-left:10px;
+  width:730px;
+}
+
+.slide:nth-child(4) {
+  background: auto;
+  margin-left:40px;
+}
+
+.slide:nth-child(5) {
+  background: auto;
+  margin-left:10px;
+}
+
+
+
+@-webkit-keyframes slide {
+  10% {margin-left: 0px;}
+  20% {margin-left: -700px;}
+  30% {margin-left: -700px;}
+  40% {margin-left: -1400px;}
+  50% {margin-left: -1400px;}
+  60% {margin-left: -1400px;}
+  70% {margin-left: -1400px;}
+  80% {margin-left: -1400px;}
+  90% {margin-left: -1400px;}
+  100% {margin-left: -2100px;}
+}
+
+
+
+
+
+  
+
+</style>
+
+	
+	
+  </head>
+    <body id="top">
+
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
+
+
+	  	<!-- ==========================
+        HEADER SECTION 
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="menu-wrap">
+				<nav class="menu">
+				    <!-- Menu Links -->
+					<div class="icon-list">
+						<a href="#"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+						<a href="#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
+						<a href="#service"><i class="fa fa-briefcase"></i><span>Experience</span></a>
+						<a href="#education"><i class="fa fa-graduation-cap"></i><span>Education</span></a>
+						<a href="#portfolio"><i class="fas fa-project-diagram"></i><span>Projects</span></a>
+						<a href="#research"><i class="fab fa-researchgate"></i><span>Research</span></a>
+						<a href="#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+					</div>
+				</nav>
+			    </div>
+			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+              </div><!--/row-->
+            </div><!--/container-->
+		  <!-- Header Image -->
+          <section class="hero" id="hero">
+            <div class="container">
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row">
+                <div class="col-md-8 col-md-offset-1 inner">
+                 <h1 class="animated fadeInDown">
+                    <span style="color:#E04343;">D</span>ewan<br/>
+                    <span style="color:#20DFC8">Z</span>iaul</span><br/>
+					<span style="color:#14A1FD">K</span>arim</span>
+                  </h1><!-- Title -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Teacher, Learner, Enthusiast</span></h3><!-- Text Rotator -->
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p>SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div>
+            </div>
+          </section>
+		  <!-- Header Image End -->
+        </header>
+		<!-- ==========================
+        HEADER SECTION END  
+        =========================== -->
+		
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION  
+        =========================== -->
+        <section class="intro text-center section-padding color-bg" id="about">
+          <div class="container" >
+		    <!-- WELCOME TEXT -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow" id="aboutsectionformenu">A little <span>about</span> me</h1><!-- Headline -->
+				<!-- about / welcome text -->
+                <p align="justify">Hi guys! I am Dewan Ziaul karim. Currently I am working as a lecturer at BRAC university. Previously I worked as a lecturer in Daffodil International University (DIU). I have completed my BSc in CSE from Ahsanullah University of Science & Technology (AUST). My hobbies include playing computer games, watching TV series, wwe or football, traveling etc. </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+<!-- ==========================
+        SERVICE SECTION 
+        =========================== -->
+        <section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+   
+          
+		    <!-- Headline -->
+            <div class="row">
+              <h1 class="arrow">
+                My <span>Job </span>Experience
+              </h1>
+            </div>
+         
+       
+		
+		
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          <!-- Service Box 1 -->
+                  <div class="col-md-4 wp2 item">
+                    <div class="icon">
+           
+					<img src="./img/bracu_logo.png" class="fa fa-brac" height="90" width="90">     
+                    </div>
+                    <h2 style="font-family:Comic Sans MS, cursive, sans-serif; text-transform: capitalize;">BRAC University<br/></h2><!-- Title -->
+					
+                    <p>Lecturer, Department of CSE</p>
+					<p>May, 2018 - till date</p><!-- Description -->
+                  </div>
+          <!-- Service Box 2 -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <div class="icon">
+                      <img src="./img/diu_logo.png" class="fa fa-diu" height="90" width="90">  
+                    </div>
+                    <h2 style="font-family:Comic Sans MS, cursive, sans-serif; text-transform: capitalize;">Daffodil International University (DIU)</h2><!-- Title -->
+                    <p>Lecturer, Department of CSE</p>
+					<p>September, 2016 - April, 2018</p><!-- Description -->
+                  </div>
+          <!-- Service Box 3 -->
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <div class="icon">
+					<img src="./img/aust_logo.png" class="fa fa-aust" height="90" width="90">  
+                     <!-- <i class="fa fa-cubes"></i><!-- Icon -->
+                    </div>
+                    <h2 style="font-family:Comic Sans MS, cursive, sans-serif; text-transform: capitalize;">Ahsanullah University of Science & Technology (AUST)</h2><!-- Title -->
+                    <p>Lecturer (Part-Time), Department of CSE</p>
+					<p>September, 2016 - February, 2017</p><!-- Description -->
+                  </div>
+          </div>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+		
+<section class="swag text-center" id="education">
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <h1 class="arrow">
+                My <span>Education</span>
+              </h1>
+            </div>
+          </div>
+        </section>
+	
+
+		<div class="container-fluid">
+		    <!-- About 1 -->
+
+		
+
+
+		
+
+
+			<!-- About 2 -->
+			<div class="row color-bg">
+			
+			
+				
+			
+			
+				<div class="col-md-6 about-text">
+					<h6 style="color:white">Under-Graduate</h6><!-- Headline -->
+					<p style="color:white">BSc in Computer Science & Engineering (CSE)</p><!-- About Text 2 -->
+					<p style="color:white">April 2012 - June 2016.</p>
+					<p style="color:white">Ahsanullah University of Science & Technology (AUST)</p><br><!-- About Text 1 -->
+					<a href="https://aust.edu/" class="weight-outline-btn">AUST Website</a>	<!-- read more button  -->				
+				</div>
+				
+			<div class="col-md-6 nopadding features-intro-img">
+			
+				
+
+		
+		<div class="about-image_aust">
+					
+					 <img src='./img/aust.png' class="imageaust" width="680" height="400" style="position:relative;"/>
+					  <div class="austoverlay">
+						<div class="textaust"><img src='./img/grad_cert2.png' width="680" height="400" style="margin-top:27px; margin-right:45px";/></br></br>
+						
+						</div>
+					  </div>
+		
+		</div>			
+		
+		
+		
+  </div>	
+
+			</div>
+			 
+			
+			
+			<!-- About 3 -->
+			<div class="row color-bg">
+				<div class="col-md-6 nopadding features-intro-img">
+					<div class="about-image_drmc">
+					
+					 <img src='./img/drmc.png' class="imagedrmc" width="680" height="400" style="position:relative;"/>
+					  <div class="drmcoverlay">
+						<div class="textdrmc"><img src='./img/drmclogo.png' width="150" height="150" style="margin:0px 25px";/></br></br>
+						HSC: </br> Concentration: Science </br> GPA: 5.00/5.00 </br></br>
+						SSC: </br> Concentration: Science </br> GPA: 5.00/5.00
+						</div>
+					  </div>
+		
+		</div>			
+				</div>
+				<div class="col-md-6 about-text">
+					<h6>HSC (2011)</h6><!-- Headline-->
+					<p><!-- About Text 3 -->
+					Dhaka Residential Model College (DRMC)</p><!-- About Text 3 -->
+					<h6>SSC (2009)</h6><!-- Headline-->
+					<p>
+					Dhaka Residential Model College (DRMC)</p><!-- About Text 3 -->
+					
+					<a href="https://www.drmc.edu.bd/" class="weight-outline-btn">DRMC Website</a><!-- read more button  -->					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION END
+        =========================== -->	
+
+		
+		
+		
+		<!-- ==========================
+        PORTFOLIO SECTION
+    =========================== -->
+        <section class="swag text-center" id="portfolio">
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <h1 class="arrow">
+                My <span>Projects</span>
+              </h1>
+            </div>
+          </div>
+        </section>
+
+        <div class="container">
+          <div class="row row-offset-0">
+  				 
+          <!-- PORTFOLIO ITEM 1 -->
+          <div class="col-md-3 col-sm-6">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="img/portfolio/bzn.png" data-lightbox="roadtrip" title="BZN Student Information System"><img class="grayscale" src="img/portfolio/bznt.png" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	
+  	    <!-- PORTFOLIO ITEM 2 -->
+          <div class="col-md-3 col-sm-6">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="https://drive.google.com/file/d/0ByrUMdakuND6cmJNOGJDZGtEa1U/view" title="ColorZone Androip App"><img class="grayscale" src="img/portfolio/colorzone.png" style="margin-left:45px" alt="Portfolio Item"></a></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 3 -->
+          <div class="col-md-3 col-sm-6">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="https://www.youtube.com/watch?v=9uV2Let5pzo" title="London Tower Bridge 3d Model Using GLUT"><img class="grayscale" src="img/portfolio/londont.png" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 4 -->
+          <div class="col-md-3 col-sm-6 ">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="img/portfolio/idcard.png" data-lightbox="roadtrip" title="ID Card Reader using MATLAB"><img class="grayscale" src="img/portfolio/idcardt.png" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	             
+          <!-- PORTFOLIO ITEM 5 -->
+          <div class="col-md-3 col-sm-6 ">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="http://kivabejaben.byethost6.com/" title="Kivabejaben-Website"><img class="grayscale" src="img/portfolio/kivabejabent.png" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  	
+  	    <!-- PORTFOLIO ITEM 6 -->
+          <div class="col-md-3 col-sm-6">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="http://moviemaniaz1891.byethost13.com/" title="Moviemania-Website"><img class="grayscale" src="img/portfolio/moviemaniat.png" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 7 -->
+          <div class="col-md-3 col-sm-6">
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="http://dewanziaulkarim.ihostfull.com/hungrymonkey/index.html" title="The Hungry Monkey-Windows Game using Construct 2D"><img class="grayscale" src="img/portfolio/hungrymonkeyt.png" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+  					
+  		<!-- PORTFOLIO ITEM 8 -->
+          <div class="col-md-3 col-sm-6"> 
+              <div class="overlay-effect effects clearfix">
+                  <div class="img">
+                      <a href="http://dewanziaulkarim.ihostfull.com/foolthealligator/index.html" title="Fool The Alligator-Windows Game using Construct 2D"><img class="grayscale" src="img/portfolio/foolthealigatort.png" alt="Portfolio Item"></a>
+                  </div>
+              </div>
+          </div>
+  	    <!-- PORTFOLIO ITEM END -->
+        </div><!--/row-->
+      </div><!--/.container-->
+		<!-- ==========================
+        PORTFOLIO SECTION END
+        =========================== -->
+			
+
+
+			
+		<!-- ==========================
+        CUSTOM SPACER
+        =========================== -->
+		<div class="spacer-cta text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="Projects.docx" class="outline-btn">Project Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+		<!-- ==========================
+        CUSTOM SPACER END
+        =========================== -->
+		
+		
+		<section id="research">
+		
+		<!-- ==========================
+        Research Section Title Start
+        =========================== -->
+		
+<section class="swag text-center" id="portfolio">
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <h1 class="arrow">
+                My <span>Research</span>
+              </h1>
+            </div>
+          </div>
+        </section>
+   
+   
+   <!-- ==========================
+        Research Section Title END
+        =========================== -->
+        
+		
+		<!-- ==========================
+        Research SECTION 
+        =========================== -->
+		
+		
+		
+		<div class="container-fluid">
+			<div class="row color-bg">
+				<!-- Left Image -->
+				<div class="col-md-6 nopadding features-intro-img wow fadeInLeft">
+				<!--	<div class="about-image" style="background-image:url(img/research.png)"></div> -->
+			
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/research.png" alt="research" title="research" id="wows1_0"/></li>
+		<li><img src="data1/images/research1.png" alt="research1" title="research1" id="wows1_1"/></li>
+		<li><img src="data1/images/research2.png" alt="research2" title="research2" id="wows1_2"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/research3.png" alt="image slider" title="research3" id="wows1_3"/></a></li>
+		<li><img src="data1/images/research4.png" alt="research4" title="research4" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="research"><span><img src="data1/tooltips/research.png" alt="research"/>1</span></a>
+		<a href="#" title="research1"><span><img src="data1/tooltips/research1.jpg" alt="research1"/>2</span></a>
+		<a href="#" title="research2"><span><img src="data1/tooltips/research2.png" alt="research2"/>3</span></a>
+		<a href="#" title="research3"><span><img src="data1/tooltips/research3.png" alt="research3"/>4</span></a>
+		<a href="#" title="research4"><span><img src="data1/tooltips/research4.png" alt="research4"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+					
+		</div>			
+					
+					
+					
+					
+				
+				<!-- Research Text -->
+				<div class="col-md-6 nopadding about-text">
+				<h6>Publications</h6>
+					<div id="clientSlider">
+					   <ul class="slides">
+					      <li><p><small><span style="color:yellow; font-size:15px">Cloud-POA: A cloud-based map only implementation of PO-MSA on Amazon multi-node EC2 Hadoop Cluster
+						  </span>
+						  </br>
+						   <span style="color:yellow;">Publication date:</span> 2017/12/22
+						   || 
+						  <span style="color:yellow;">Publisher:</span> IEEE
+						  </br>
+						  <span style="color:yellow;">Abstract:</span> Sequence alignment in bioinformatics and computational
+							biology has always been a challenging task. With Next
+							Generation Sequencing (NGS) techniques in hand, researchers
+							are now capable of studying biological systems at a level never
+							been possible before. 
+							<a href="https://ieeexplore.ieee.org/abstract/document/8281808/"; style="text-decoration:none;"
+							>[Read More]</a>
+						  
+						  </small></p>	</li>
+						  
+						  
+						  
+						  <li><p><small><span style="color:yellow; font-size:15px">Runtime Optimization of Identification Event in ECG Based Biometric Authentication
+						  </span>
+						  </br>
+						   <span style="color:yellow;">Publication date:</span> 2019/02/07
+						   || 
+						  <span style="color:yellow;">Publisher:</span> IEEE
+						  </br>
+						  <span style="color:yellow;">Abstract: </span>Biometric Authentication has become a very popular method for different state-of-the-art 
+							security architectures. Albeit the ubiquitous acceptance and constant development of trivial 
+							biometric authentication methods such as fingerprint, palm-print, retinal scan etc.
+							<a href="https://ieeexplore.ieee.org/abstract/document/8679286/" style="text-decoration:none;">[Read More]</a>
+						  
+						  </small></p>	</li>
+					   </ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		</section>
+		
+		<!-- ==========================
+       Research SECTION END
+        =========================== -->
+		
+	
+		
+		
+		
+		<!-- ==========================
+        Pastimes SECTION Start
+        =========================== -->
+		
+		
+		<section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">My Pastimes</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          <!-- Service Box 1 -->
+                  <div class="col-md-4 wp2 item">
+                    <div class="icon">
+					
+					 <i class="fa fa-pencil"></i><!-- Icon -->
+                    </div>
+                    <h2 style="font-family:Comic Sans MS, cursive, sans-serif; text-transform: capitalize;">Sketching<br/></h2><!-- Title -->
+					
+                    <p align="justify" style="color:#414140">I don't sketch often nowadays. But I always had a deep love for sketching/painting. 
+					In my early childhood I used to learn drawing. But when I moved to Dhaka, 
+					I had to give that up. But I still am fascinated about drawing and like to draw whenver I get 
+					enough time, and also whenever I can get myself out of lazyness.</p>
+					<!-- Description -->
+                  </div>
+          <!-- Service Box 2 -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-tv"></i>
+                    </div>
+                    <h2 style="font-family:Comic Sans MS, cursive, sans-serif; text-transform: capitalize;">
+					TV Series</h2><!-- Title -->
+                    <p align="justify" style="color:#414140">I am an extensive watcher of different TV series. I like comedy sitcoms. But I don't usually follow any 
+					specific genre. If there's a series which is interesting enough, I will watch it. I have literally watched a
+					LOT of tv series in my life. Started from 2012, still going on strongly. Some of my most favourite series 
+					are That 70's show, Breaking Bad, Game of Thrones, Monk, Sherlock etc.</p>
+                  </div>
+          <!-- Service Box 3 -->
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <div class="icon">
+					<i class="fa fa-gamepad"></i>
+                    </div>
+                    <h2 style="font-family:Comic Sans MS, cursive, sans-serif; text-transform: capitalize;">
+					Computer Games</h2><!-- Title -->
+                   <p align="justify" style="color:#414140">My very first PC game was Roadrash. I played it when I was in 4th grade. Since then, computer games 
+					have always amazed me. One of the main reason of choosing CSE as my undergrad suject was computer games. 
+					I though, well...computer games are fun to play, so CSE should be fun too. Later I found out that it's 
+					not quite like that, haha! My most favourite game is FIFA. I have been buying original FIFA since 2012 
+					even though I can't manage enough time play nowadays.</p>
+                  </div>
+          </div>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+				
+		<!-- ==========================
+        Pastimes SECTION End
+        =========================== -->
+		
+		
+		
+		<!-- ==========================
+        CUSTOM SPACER
+        =========================== -->
+		<div class="spacer-cta text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="CVUpdated.docx" class="outline-btn">Download my CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+		<!-- ==========================
+        CUSTOM SPACER END
+        =========================== -->
+		
+		
+		
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Drop <span>me</span> a line</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+			  <!-- Adress Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                  <p> 66 Mohakhali Dhaka 1212, Bangladesh</p>
+                </div>
+              </div>
+			  <!-- Phone Number Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                  <p>Contact via Email for Phone Number</p>
+                </div>
+              </div>
+			  <!-- E-Mail Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  
+				  <p><a href="mailto:ziaul1891@gmail.com?Subject=Hello" target="_top">ziaul1891@gmail.com</a></p>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+			  <!-- Google Maps (Change your Settings below) -->
+			  <div class="col-md-6">
+			    <div id="googlemaps"></div>
+			  </div>
+			  <!-- Contact Form -->
+			 
+			 
+			 
+			 <!--
+			 <form name="contactform" method="post" action="send_form_email.php">
+<table width="450px">
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+ </td>
+</tr>
+</table>
+</form>
+			 
+	-->		 
+
+
+			 <div class="col-md-6 contact">
+			     <form name="contactform" method="post" action="send_form_email.php">
+				 
+				            
+                            <div class="row">
+                                <div class="col-md-6">
+								    
+                                    <div class="form-group">
+                                        <input  type="text" name="first_name" class="form-control" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+								    
+                                    <div class="form-group">
+                                         <input  type="text" name="email" class="form-control" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div>
+							
+                            <div class="form-group">
+                               <textarea  name="comments" class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
+                            </div>
+							
+							
+                            <button type="submit" class="btn btn-send" <a href="https://dewanziaulkarim.000webhostapp.com/send_form_email.php">Send message</a>
+                                
+                            </button>
+                            
+                          
+                        </form>
+			  </div>
+			  
+	  
+			  
+			</div>
+			<br>
+			<!-- Social Buttons - use font-awesome, past in what you want -->
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+                 
+                  <li><a href="https://twitter.com/ziaul1891" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
+                  <li><a href="https://www.facebook.com/ziaulmishu" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+				 
+				  <li><a href="https://www.youtube.com/channel/UC16ZNQaGJEJcSno57SPLZDA/videos?view_as=subscriber" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+		
+		
+		
+		<!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>All Rights Reserved. &copy; DZK <a href="https://www.facebook.com/ziaulmishu"><i class="fa fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+		<!-- ==========================
+        FOOTER SECTION END
+        =========================== -->		
+		
+		
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/waypoints.min.js"></script>
+    <!-- classie.js -->
+	<script src="js/classie.js"></script>
+    <!-- FlexSlider -->
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+	
+	<!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+	<!-- Text Rotator -->
+	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+	<!-- Lightbox.js -->
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+    <!-- Google Maps --> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+	<!-- Theme JavaScript Core -->
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+
+	<!-- GOOGLE MAPS DATA -->
+    <script type="text/javascript">
+    // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+    
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 15,
+                
+                scrollwheel: false,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(23.7802 , 90.4072 ), // BRACU
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('googlemaps');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+        }
+	
+    </script>
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script>
+	
+    </body>
 </html>
